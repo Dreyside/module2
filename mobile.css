@@ -1,0 +1,24 @@
+/* mobile view 767px or less than */
+@media only screen and (max-width: 767px) {
+  .box { 
+  flex: 100%;
+  max-width: 100%;
+  }
+
+} 
+
+ /* Tablet view 768px and 991px */
+@media (min-width: 767px)  and (max-width: 991px) {
+  .sushi{ 
+  flex-wrap: wrap;
+  }
+
+} 
+
+/* full width */
+@media (max-width: 767px) {
+  .top { 
+  flex-direction: column;
+  }
+
+}
